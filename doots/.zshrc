@@ -100,9 +100,9 @@ alias r='exec $SHELL'
 source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # Personal productivity
-alias configvim='vim ~/.config/nvim/init.vim'
-alias configvimlua='vim ~/.config/nvim/lua/plugins.lua'
+alias configvim='vim ~/.vimrc' 
 alias pfzf='fzf --preview "bat --style numbers,changes --color=always {} | head -500"'
+alias notes='cd ~/notes && glow'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
