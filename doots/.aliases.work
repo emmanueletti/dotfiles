@@ -1,0 +1,2 @@
+# Remote general aliases
+alias dsa="dev style --include-branch-commits"

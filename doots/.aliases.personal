@@ -1,0 +1,8 @@
+# Local scripts
+alias note="$HOME/dev-stuff/scripts/note.sh"
+
+# Local general aliases
+alias boom="spin destroy --all --confirm"
+alias notes="cd $HOME/notes && glow"
+alias dotfiles="cd $HOME/projects/dotfiles"
+alias scripts="cd $HOME/scripts"
