@@ -16,7 +16,6 @@ am_i_spun() {
 }
 
 source $HOME/.aliases
-source $ZSH/oh-my-zsh.sh
 
 if [ ! -n "$SPIN" ]; then
 	source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
