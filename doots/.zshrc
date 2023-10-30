@@ -22,4 +22,4 @@ if [ ! -n "$SPIN" ]; then
 fi
 
 # Add local or spin stuff to prompt
-PROMPT+="$(am_i_spun) -> "
+# PROMPT+="$(am_i_spun) -> "
