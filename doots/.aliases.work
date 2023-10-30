@@ -23,8 +23,10 @@ alias glog100='git log --oneline --decorate --color --graph -100'
 alias gloga='git log --oneline --decorate --color --graph --all'
 alias gd='git diff'
 alias gsize='git count-objects -vH'
-alias gri='git rebase -i'
 alias gr='git rebase'
+alias gri='git rebase -i'
+alias grim='git rebase -i main'
+alias grc='git rebase --continue'
 
 # Github CLI
 alias prc='gh pr create -w'
