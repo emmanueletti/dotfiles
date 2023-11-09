@@ -16,9 +16,6 @@ set autoindent
 " line numbers
 set number
 
-" colorscheme desert
-colorscheme railscasts
-
 " get rid of anoying ~file:
 set nobackup
 
@@ -45,7 +42,7 @@ set laststatus=2
 set background=dark
 
 " Use system clipboard
-set clipboard+=unnamedplus
+" set clipboard+=unnamedplus
 
 " :help <setting> for description
 set complete+=kspell
@@ -137,3 +134,12 @@ let g:netrw_localcopydircmd='cp -r'
 " REMAPS
 " ======
 inoremap jj <Esc>
+
+
+" PLUGINS
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
