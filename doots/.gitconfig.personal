@@ -2,7 +2,7 @@
   name = Emmanuel Etti
   email = emmanueletti@gmail.com
 [core]
-  editor = code --wait
+  editor = vim
   commitGraph = true
 [diff]
   algorithm = patience
