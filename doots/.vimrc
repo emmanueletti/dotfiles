@@ -1,6 +1,9 @@
 " backspace in insert mode works like normal editor
 set backspace=2
 
+" Set text width to 72 characters
+:set textwidth=72
+
 " syntax highlighting
 syntax on
 
@@ -133,4 +136,4 @@ let g:netrw_localcopydircmd='cp -r'
 
 " REMAPS
 " ======
-inoremap jh <Esc>
+inoremap jj <Esc>
