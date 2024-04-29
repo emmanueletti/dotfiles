@@ -1,8 +1,11 @@
 # Remote general aliases
-alias dt="dev test"
-alias ds="dev style"
-alias dsibc="dev style --include-branch-commits"
-alias dtibc="dev test --include-branch-commits"
+alias su="spin up"
+alias shipify="spin up shipify:labels"
+alias ds="dev style --include-branch-commits"
+alias dt="dev test --include-branch-commits"
+
+# Ruby
+alias be="bundle exec"
 
 # Git
 alias ga='git add'
